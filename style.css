@@ -1,0 +1,135 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@400;700;800&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    margin: auto 0;
+    font-family: 'Inter', sans-serif; 
+    font-size: 15px;
+    min-height: 100vh;
+}
+header{
+    display: flex;
+    justify-content: space-between;
+    margin: 1em;
+}
+nav ul{
+    list-style: none; 
+    display: flex;
+    justify-content: center;
+ }
+ nav li{
+     margin-left: 2em;
+ }
+ nav a{
+    text-decoration: none;
+    color: #707070;
+    font-weight: 700;
+ }
+nav a:hover,
+ a:focus{
+    color: gainsboro;
+    border-bottom: 2px solid gainsboro;
+}
+.main-image{
+    width: 750px;
+    margin-bottom: 2em;
+}
+.text-one{
+    display: flex;
+    width: 600px;
+    margin-bottom: 1em;
+}
+.text-one h1{font-weight: 800;
+    color: hsl(240, 100%, 5%);
+}
+.text-one-b{
+    width: 350px;
+    margin-bottom: 1em;
+}
+.text-one-b p{
+    width: 350px;
+    margin-bottom: 1em;
+}
+.text-one-b button{
+    border: none;
+    font-size: 10px;
+    font-weight: 700;
+    text-transform: uppercase;
+    padding: 10px 15px;
+    background-color: hsl(5, 85%, 63%);
+    color: hsl(36, 100%, 99%);
+}
+.text-one-b button:hover{
+    background-color: hsl(5, 78%, 50%);
+}
+
+aside{
+    padding: 1em;
+    background-color: hsl(240, 100%, 5%);
+    width: 250px;
+    
+    
+}
+aside h2{
+    color: hsl(35, 77%, 62%);
+    padding: .25em;
+    font-size: 25px;
+}
+aside p{
+    color: hsl(233, 8%, 79%);
+    font-size: 10px;
+}
+aside h3{color: hsl(36, 100%, 99%);
+    font-size: 15px;
+    margin-bottom: .05em;
+}
+.aside-text{
+    padding: 1.5em;
+}
+#aside-text-b{
+    border-bottom: 1px solid hsl(240, 1%, 41%);
+}
+.grid-container{
+    margin-bottom: 1em;
+    display: grid;
+    grid-template-columns: 70% 30%;
+    gap: 3em;
+}
+footer img{
+    width: 80px;
+    margin-right: .4em;
+    margin-left: .5em;
+}
+footer{
+    margin-bottom: 2em;
+    display: flex;
+}
+.footer-container{
+    display: inline;
+}
+.footer-container h3{
+    color: hsl(233, 8%, 79%);
+    font-size: 40px;
+}
+.footer-container p{
+    display: block;
+}
+.footer-head{
+    font-weight: 700;
+}
+.footer-text{
+    color: hsl(233, 8%, 79%);
+}
+.footer-container-1{
+    display: flex;
+    margin-bottom: 1em;
+}
+.footer-number{
+    font-size: 30px;
+    color: hsl(233, 8%, 79%);
+    margin-bottom: .05em;
+}
